@@ -1,0 +1,35 @@
+.container{
+    width: 100vw;
+}
+.wrapper{
+    width: 77%;
+    margin: 50px auto;
+}
+.wrapper h2{
+    margin-bottom: 20px;
+}
+.wrapper ul{
+    display: grid;
+}
+.wrapper ul li{
+    margin-bottom: 10px;
+    grid-template-columns: auto auto;
+    gap: 50px;
+    list-style: none;
+}
+.wrapper-1 ul li::before{
+    content: '✔';
+    margin-right: 0.5em; 
+}
+.second-wrapper-grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 12px;
+}
+.wrapper-2{
+    width: 55%;
+}
+.wrapper-2 div{
+    display: flex;
+    align-items: center;
+}
